@@ -1,0 +1,230 @@
+
+[1;32m[*] Running Step 9 ...[0m
+
+Total wavs: 3000. Fs = 8000 Hz
+Feature extraction completed with 13 mfccs per frame
+Splitting in train test split using the default dataset split
+
+[1;32m[*] Running Step 10 ...[0m
+
+This step is done in conjunction with step 11
+
+[1;32m[*] Running Step 11 ...[0m
+
+Training hmm for digit 0
+[1] Improvement: 22704.63388967974	Time (s): 0.2747
+[2] Improvement: 22921.99097776832	Time (s): 0.236
+[3] Improvement: 18441.335031824303	Time (s): 0.2002
+[4] Improvement: 13923.88134023943	Time (s): 0.1924
+[5] Improvement: 10088.753074231558	Time (s): 0.3011
+[6] Improvement: 7558.024906741921	Time (s): 0.1929
+[7] Improvement: 5612.312389932282	Time (s): 0.1938
+[8] Improvement: 4113.310285876272	Time (s): 0.189
+[9] Improvement: 3229.0580250989296	Time (s): 0.1933
+[10] Improvement: 2559.899524536915	Time (s): 0.2035
+[11] Improvement: 2031.233631376992	Time (s): 0.2084
+[12] Improvement: 1639.7331066866172	Time (s): 0.1915
+[13] Improvement: 1319.9851654923405	Time (s): 0.1899
+[14] Improvement: 1116.5534629899776	Time (s): 0.1943
+[15] Improvement: 928.8488570843474	Time (s): 0.3853
+Total Training Improvement: 118189.55366955994
+Total Training Time (s): 3.6130
+Training hmm for digit 1
+[1] Improvement: 26750.31644336204	Time (s): 0.1821
+[2] Improvement: 20016.406636982516	Time (s): 0.1833
+[3] Improvement: 15562.492357770447	Time (s): 0.3048
+[4] Improvement: 11514.721461290028	Time (s): 0.2101
+[5] Improvement: 8597.30821426143	Time (s): 0.1841
+[6] Improvement: 6538.077094322944	Time (s): 0.1837
+[7] Improvement: 4919.835424639867	Time (s): 0.1829
+[8] Improvement: 3918.506644149311	Time (s): 0.1844
+[9] Improvement: 3009.32592228672	Time (s): 0.1763
+[10] Improvement: 2168.9221092522494	Time (s): 0.1791
+[11] Improvement: 1154.073430820834	Time (s): 0.2579
+[12] Improvement: 1802.3674206159194	Time (s): 0.3662
+[13] Improvement: 1513.9140572053147	Time (s): 0.3393
+[14] Improvement: 1388.4142292487086	Time (s): 0.2209
+[15] Improvement: 1219.956709278922	Time (s): 0.1992
+Total Training Improvement: 110074.63815548725
+Total Training Time (s): 3.5387
+Training hmm for digit 2
+[1] Improvement: 29329.05119903147	Time (s): 0.2051
+[2] Improvement: 18353.51526968798	Time (s): 0.1782
+[3] Improvement: 15436.344458572625	Time (s): 0.1884
+[4] Improvement: 12061.612440855533	Time (s): 0.1835
+[5] Improvement: 9531.786999873933	Time (s): 0.1783
+[6] Improvement: 7327.257127852179	Time (s): 0.1794
+[7] Improvement: 5541.73133594956	Time (s): 0.1795
+[8] Improvement: 4482.131385103159	Time (s): 0.1788
+[9] Improvement: 3687.7060605493607	Time (s): 0.1732
+[10] Improvement: 2986.0288046741625	Time (s): 0.1854
+[11] Improvement: 2343.213059396425	Time (s): 0.1864
+[12] Improvement: 1845.1074527163873	Time (s): 0.1785
+[13] Improvement: 1421.320546512783	Time (s): 0.1667
+[14] Improvement: 1083.0188969755545	Time (s): 0.1823
+[15] Improvement: 853.0405276402016	Time (s): 0.183
+Total Training Improvement: 116282.86556539132
+Total Training Time (s): 2.9085
+Training hmm for digit 3
+[1] Improvement: 24772.87898200279	Time (s): 0.1867
+[2] Improvement: 24575.655703869008	Time (s): 0.1802
+[3] Improvement: 18414.187477931962	Time (s): 0.1714
+[4] Improvement: 14957.207570035767	Time (s): 0.165
+[5] Improvement: 11511.99455923721	Time (s): 0.1904
+[6] Improvement: 8665.441863444983	Time (s): 0.1999
+[7] Improvement: 6620.058043386671	Time (s): 0.181
+[8] Improvement: 5162.6365135470405	Time (s): 0.1804
+[9] Improvement: 3917.116323693248	Time (s): 0.176
+[10] Improvement: 2904.822649304522	Time (s): 0.1795
+[11] Improvement: 2198.2290083043044	Time (s): 0.188
+[12] Improvement: 1661.9456401095958	Time (s): 0.2109
+[13] Improvement: 1301.0300692308228	Time (s): 0.2319
+[14] Improvement: 1034.1129730930552	Time (s): 0.1942
+[15] Improvement: 823.4637145383749	Time (s): 0.1857
+Total Training Improvement: 128520.78109172935
+Total Training Time (s): 3.0055
+Training hmm for digit 4
+[1] Improvement: 25807.51324008603	Time (s): 0.2686
+[2] Improvement: 25659.179183198023	Time (s): 0.2033
+[3] Improvement: 19122.852422485943	Time (s): 0.182
+[4] Improvement: 14329.149934814253	Time (s): 0.1906
+[5] Improvement: 11547.143063626776	Time (s): 0.2065
+[6] Improvement: 9349.064264644869	Time (s): 0.2124
+[7] Improvement: 7151.455010917096	Time (s): 0.1646
+[8] Improvement: 5622.7457673099125	Time (s): 0.1636
+[9] Improvement: 4320.484687638644	Time (s): 0.1638
+[10] Improvement: 3387.118183282728	Time (s): 0.1663
+[11] Improvement: 2660.4941619333695	Time (s): 0.3043
+[12] Improvement: 2050.1070063847	Time (s): 0.1921
+[13] Improvement: 1749.1666260922211	Time (s): 0.1644
+[14] Improvement: 1571.1677458314807	Time (s): 0.1622
+[15] Improvement: 1401.63126892352	Time (s): 0.167
+Total Training Improvement: 135729.27256716957
+Total Training Time (s): 3.1249
+Training hmm for digit 5
+[1] Improvement: 24853.803652721283	Time (s): 0.1838
+[2] Improvement: 27600.26077160507	Time (s): 0.1935
+[3] Improvement: 21781.33522603719	Time (s): 0.2102
+[4] Improvement: 16912.167318325024	Time (s): 0.2003
+[5] Improvement: 12688.823070066632	Time (s): 0.2851
+[6] Improvement: 9269.601671719807	Time (s): 0.1824
+[7] Improvement: 6904.1454528418835	Time (s): 0.1814
+[8] Improvement: 5344.5473347682855	Time (s): 0.207
+[9] Improvement: 4125.543840641505	Time (s): 0.1924
+[10] Improvement: 3178.0526954936213	Time (s): 0.2089
+[11] Improvement: 2344.488964614575	Time (s): 0.2244
+[12] Improvement: 1815.3915549556841	Time (s): 0.2062
+[13] Improvement: 1374.789437634754	Time (s): 0.2088
+[14] Improvement: 1057.089238013199	Time (s): 0.2579
+[15] Improvement: 839.2259028330445	Time (s): 0.1942
+Total Training Improvement: 140089.26613227156
+Total Training Time (s): 3.3121
+Training hmm for digit 6
+[1] Improvement: 27155.297338781704	Time (s): 0.1991
+[2] Improvement: 24881.817478573183	Time (s): 0.1999
+[3] Improvement: 19199.64204565226	Time (s): 0.21
+[4] Improvement: 15404.676353600866	Time (s): 0.23
+[5] Improvement: 11278.779500996927	Time (s): 0.1823
+[6] Improvement: 9017.633370032127	Time (s): 0.2008
+[7] Improvement: 7398.9103539080825	Time (s): 0.2054
+[8] Improvement: 5340.4838061308255	Time (s): 0.2216
+[9] Improvement: 4600.149828022637	Time (s): 0.1927
+[10] Improvement: 3683.405478359142	Time (s): 0.2041
+[11] Improvement: 2841.3789211853873	Time (s): 0.1936
+[12] Improvement: 2151.273562911374	Time (s): 0.1983
+[13] Improvement: 1768.5886697514798	Time (s): 0.2117
+[14] Improvement: 1471.8127229255042	Time (s): 0.2064
+[15] Improvement: 1159.3912616682937	Time (s): 0.2076
+Total Training Improvement: 137353.2406924998
+Total Training Time (s): 3.2546
+Training hmm for digit 7
+[1] Improvement: 22102.39566970966	Time (s): 0.1943
+[2] Improvement: 28633.099226959574	Time (s): 0.2169
+[3] Improvement: 22941.863579688128	Time (s): 0.2054
+[4] Improvement: 18112.299174634158	Time (s): 0.2
+[5] Improvement: 13761.40565956285	Time (s): 0.1923
+[6] Improvement: 10760.887601396767	Time (s): 0.185
+[7] Improvement: 8249.180102410668	Time (s): 0.2003
+[8] Improvement: 6196.405511170218	Time (s): 0.1804
+[9] Improvement: 4897.067119051877	Time (s): 0.1967
+[10] Improvement: 3462.1234697931795	Time (s): 0.2267
+[11] Improvement: 2704.172899290279	Time (s): 0.2049
+[12] Improvement: 2013.1943891663686	Time (s): 0.26
+[13] Improvement: 1480.2994074568269	Time (s): 0.2177
+[14] Improvement: 1252.3623059128295	Time (s): 0.2025
+[15] Improvement: 1005.7755118586356	Time (s): 0.196
+Total Training Improvement: 147572.53162806202
+Total Training Time (s): 3.2744
+Training hmm for digit 8
+[1] Improvement: 10580.564772882382	Time (s): 0.1873
+[2] Improvement: 32390.958489328972	Time (s): 0.1824
+[3] Improvement: 22514.780370733526	Time (s): 0.1844
+[4] Improvement: 16576.211963597918	Time (s): 0.1835
+[5] Improvement: 12722.06649579975	Time (s): 0.1692
+[6] Improvement: 9479.009886720334	Time (s): 0.1861
+[7] Improvement: 7079.888633128372	Time (s): 0.1829
+[8] Improvement: 5361.737129417073	Time (s): 0.1738
+[9] Improvement: 4234.044899695087	Time (s): 0.1686
+[10] Improvement: 3347.519650292059	Time (s): 0.1654
+[11] Improvement: 2489.5778807123424	Time (s): 0.1726
+[12] Improvement: 1814.922472003178	Time (s): 0.1865
+[13] Improvement: 1314.3092086827382	Time (s): 0.1809
+[14] Improvement: 892.2989483721321	Time (s): 0.1764
+[15] Improvement: 652.7516526533582	Time (s): 0.1725
+Total Training Improvement: 131450.64245401922
+Total Training Time (s): 2.8632
+Training hmm for digit 9
+[1] Improvement: 31968.36374743929	Time (s): 0.3014
+[2] Improvement: 23628.30987054779	Time (s): 0.2308
+[3] Improvement: 17013.207490209956	Time (s): 0.1945
+[4] Improvement: 13054.58236162935	Time (s): 0.1962
+[5] Improvement: 9920.770946740638	Time (s): 0.1964
+[6] Improvement: 7533.273343158537	Time (s): 0.199
+[7] Improvement: 5867.147075337125	Time (s): 0.1978
+[8] Improvement: 4813.145445128554	Time (s): 0.1977
+[9] Improvement: 4065.3674567698035	Time (s): 0.1956
+[10] Improvement: 2924.94453079073	Time (s): 0.1933
+[11] Improvement: 2287.385883342533	Time (s): 0.2233
+[12] Improvement: 1692.9709519786993	Time (s): 0.212
+[13] Improvement: 1192.0965536735603	Time (s): 0.1988
+[14] Improvement: 863.1184886536794	Time (s): 0.2151
+[15] Improvement: 609.134931264678	Time (s): 0.2067
+Total Training Improvement: 127433.81907666492
+Total Training Time (s): 3.3651
+The accuracy is  97.59 %
+
+[1;32m[*] Running Step 12 ...[0m
+
+Now computing bundles_and_accuracies
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:09<03:03,  9.64s/it] 10%|█         | 2/20 [00:12<01:46,  5.91s/it] 15%|█▌        | 3/20 [00:15<01:11,  4.22s/it] 20%|██        | 4/20 [00:26<01:50,  6.91s/it] 25%|██▌       | 5/20 [00:32<01:39,  6.65s/it] 35%|███▌      | 7/20 [00:44<01:21,  6.29s/it] 40%|████      | 8/20 [00:50<01:14,  6.24s/it] 45%|████▌     | 9/20 [01:02<01:25,  7.76s/it] 50%|█████     | 10/20 [01:18<01:40, 10.08s/it] 60%|██████    | 12/20 [01:25<00:58,  7.26s/it] 65%|██████▌   | 13/20 [01:36<00:56,  8.06s/it] 70%|███████   | 14/20 [01:59<01:11, 11.87s/it] 75%|███████▌  | 15/20 [02:15<01:05, 13.15s/it] 85%|████████▌ | 17/20 [02:23<00:27,  9.07s/it] 90%|█████████ | 18/20 [02:41<00:22, 11.23s/it] 95%|█████████▌| 19/20 [02:59<00:13, 13.08s/it]100%|██████████| 20/20 [03:13<00:00, 13.09s/it]100%|██████████| 20/20 [03:13<00:00,  9.65s/it]
+Best accuracy on validation set = 0.99,
+ using 2 states and 0 components.
+Using these # states and  # components, accuracy on test set is  99.67 %
+Saving figure at: figures/step_12_accuracies.png
+
+[1;32m[*] Running Step 13 ...[0m
+
+Confusion matrix, without normalization
+[[54  0  0  0  0  0  0  0  0  0]
+ [ 0 54  0  0  0  0  0  0  0  0]
+ [ 0  0 54  0  0  0  0  0  0  0]
+ [ 0  0  0 54  0  0  0  0  0  0]
+ [ 0  0  0  0 54  0  0  0  0  0]
+ [ 0  0  0  0  0 54  0  0  0  0]
+ [ 0  0  0  2  0  0 51  0  1  0]
+ [ 0  0  0  0  0  0  0 54  0  0]
+ [ 0  0  0  0  0  0  0  0 54  0]
+ [ 0  0  0  0  0  0  0  0  0 54]]
+Saving figure at: figures/step_13_cm_val.png
+Confusion matrix, without normalization
+[[30  0  0  0  0  0  0  0  0  0]
+ [ 0 30  0  0  0  0  0  0  0  0]
+ [ 0  0 30  0  0  0  0  0  0  0]
+ [ 0  0  0 29  0  0  1  0  0  0]
+ [ 0  0  0  0 30  0  0  0  0  0]
+ [ 0  0  0  0  0 30  0  0  0  0]
+ [ 0  0  0  0  0  0 30  0  0  0]
+ [ 0  0  0  0  0  0  0 30  0  0]
+ [ 0  0  0  0  0  0  0  0 30  0]
+ [ 0  0  0  0  0  0  0  0  0 30]]
+Saving figure at: figures/step_13_cm_test.png
