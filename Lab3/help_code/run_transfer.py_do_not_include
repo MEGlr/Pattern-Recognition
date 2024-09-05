@@ -1,0 +1,58 @@
+from main_train import *
+
+
+# help function for printing in console
+def step_seperator(step_num):
+    """
+    Just prints a message to the stdout
+    to inform the user which step is currently running
+    """
+
+    print("\n\033[1;32m[*] Running Step {} ...\033[0m\n".format(step_num))
+
+# --------------------------------------------------------
+# define device to use
+# use cuda if available else cpu
+device = "cuda:0" if torch.cuda.is_available() else "cpu"
+
+# if torch.backends.mps.is_available():
+#     device = "mps"
+
+# number of epochs for training
+EPOCHS = 25
+
+# parameters
+hparams = {}
+
+# --------------------------------------------------------
+
+markings = {1: "valence", 2:"energy", 3:"danceability"}
+#################
+# STEP 9 ########
+#################
+
+step_seperator(9)
+
+regression_task = 2
+
+
+model_type = "CNN"
+dataset_type = "multitask_beat"
+
+
+saved_model_path = "../checkpoints/CNN2d_Classifier_spectrogram_beat_/best.pickle"
+
+train_helper(
+               "CNN2d_Regression_" + dataset_type + "_"+markings[regression_task],
+                model_type,
+                CNNBackbone,
+                Regressor,
+                dataset_type,
+                regression = regression_task,
+                epochs=EPOCHS,
+                device=device,
+                hparams=hparams, 
+                transfer = saved_model_path
+            )
+
+
