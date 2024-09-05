@@ -1,0 +1,221 @@
+
+[1;32m[*] Running Step 1 ...[0m
+
+
+[1;32m[*] Running Step 2 ...[0m
+
+Saving figure at: figures/step_2_digit.png
+
+[1;32m[*] Running Step 3 ...[0m
+
+Saving figure at: figures/step_3_digits.png
+
+[1;32m[*] Running Step 4 ...[0m
+
+Mean value of attributes of (10,10) pixel for digit 0 is -0.504
+
+[1;32m[*] Running Step 5 ...[0m
+
+Variance value of attributes of (10,10) pixel for digit 0 is 0.525
+
+[1;32m[*] Running Step 6 ...[0m
+
+
+[1;32m[*] Running Step 7 ...[0m
+
+Saving figure at: figures/step_7_mean_0.png
+
+[1;32m[*] Running Step 8 ...[0m
+
+Saving figure at: figures/step_8_variance_0.png
+Saving figure at: figures/step_8_side_by_side.png
+
+[1;32m[*] Running Step 9 ...[0m
+
+Saving figure at: figures/step_9_b_means.png
+
+[1;32m[*] Running Step 10 ...[0m
+
+According to euclidean distance, digit no 101 of test data is classified as the digit 0.
+This classification is wrong. 
+The digit no 101 according to test set labels is the digit 6.
+Saving figure at: figures/step_10_sample_101_test_set.png
+
+[1;32m[*] Running Step 11 ...[0m
+
+The accuracy of the Euclidean classifier is 81.415 %.
+
+[1;32m[*] Running Step 12 ...[0m
+
+
+[1;32m[*] Running Step 13 ...[0m
+
+Euclidean Classifier Cross Validation score (accuracy): 84.995 %.
+Saving figure at: figures/step_13_b_decision_plot.png
+Saving figure at: figures/step_13_c_learning_curves.png
+
+[1;32m[*] Running Step 14 ...[0m
+
+P(digit_label=0) = 0.164
+P(digit_label=1) = 0.138
+P(digit_label=2) = 0.100
+P(digit_label=3) = 0.090
+P(digit_label=4) = 0.089
+P(digit_label=5) = 0.076
+P(digit_label=6) = 0.091
+P(digit_label=7) = 0.088
+P(digit_label=8) = 0.074
+P(digit_label=9) = 0.088
+
+[1;32m[*] Running Step 15 ...[0m
+
+Custom naive Bayes test accuracy = 74.74 %.
+sklearn naive Bayes test accuracy = 74.69 %.
+
+[1;32m[*] Running Step 16 ...[0m
+
+Custom naive Bayes with unit variance test accuracy = 81.27 %.
+
+[1;32m[*] Running Step 17 ...[0m
+
+ Model Name          | Accuracy
+------------------------------------------------------------------------
+SVM linear           | 95.776 %
+SVM rbf              | 97.696 %
+SVM poly             | 98.121 %
+SVM sigmoid          | 89.233 %
+1-NN                 | 97.079 %
+5-NN                 | 96.132 %
+15-NN                | 94.843 %
+51-NN                | 91.592 %
+sklearn Naive Bayes  | 78.124 %
+Custom NB            | 78.178 %
+Custom NB unit var   | 85.050 %
+------------------------------------------------------------------------
+
+[1;32m[*] Running Step 18 ...[0m
+
+| Classifier           | Digits in order of decreasing misprediction rate |
+| :----------------:   | :-----------------------------------------------:|
+| Gaussian Naive Bayes | [4 5 3 0 2 8 9 7 6 1]                            |
+| 1-NN                 | [8 4 5 2 3 1 9 7 6 0]                            |
+| 5-NN                 | [4 5 2 8 3 9 7 6 1 0]                            |
+| 15-NN                | [8 4 2 5 3 7 6 9 1 0]                            |
+| 51-NN                | [2 4 8 5 3 6 9 7 0 1]                            |
+| SVM linear kernel    | [5 8 4 3 2 7 6 1 0 9]                            |
+| SVM poly kernel      | [3 2 4 8 5 7 6 9 1 0]                            |
+| SVM rbf kernel       | [3 2 4 8 6 1 7 5 9 0]                            |
+| SVM sigmoid kernel   | [2 5 8 0 3 4 6 7 9 1]                            |
+| :----------------:   | : ----------------------------------------------:|
+Voting classifier using classifiers: SVM poly kernel, 1-NN, hard voting method has accuracy of [1m98.121[0m %.
+Voting classifier using classifiers: SVM poly kernel, 1-NN, soft voting method has accuracy of [1m98.066[0m %.
+
+Voting classifier using classifiers: SVM poly kernel, 1-NN, SVM linear kernel, hard voting method has accuracy of [1m98.121[0m %.
+Voting classifier using classifiers: SVM poly kernel, 1-NN, SVM linear kernel, soft voting method has accuracy of [1m98.190[0m %.
+
+Voting classifier using classifiers: SVM poly kernel, 5-NN, 1-NN, hard voting method has accuracy of [1m98.121[0m %.
+Voting classifier using classifiers: SVM poly kernel, 5-NN, 1-NN, soft voting method has accuracy of [1m98.203[0m %.
+
+Voting classifier using classifiers: SVM poly kernel, SVM rbf kernel, 1-NN, hard voting method has accuracy of [1m98.121[0m %.
+Voting classifier using classifiers: SVM poly kernel, SVM rbf kernel, 1-NN, soft voting method has accuracy of [1m98.066[0m %.
+
+Bagging: SVM with poly kernel:
+Bagging classifier with 5 base estimators has accuracy of [1m97.874[0m %
+Bagging classifier with 10 base estimators has accuracy of [1m97.902[0m %
+Bagging classifier with 15 base estimators has accuracy of [1m97.902[0m %
+Bagging classifier with 25 base estimators has accuracy of [1m97.860[0m %
+
+
+
+Bagging: SVM with linear kernel:
+Bagging classifier with 5 base estimators has accuracy of [1m96.489[0m %
+Bagging classifier with 10 base estimators has accuracy of [1m96.557[0m %
+Bagging classifier with 15 base estimators has accuracy of [1m96.626[0m %
+Bagging classifier with 25 base estimators has accuracy of [1m96.599[0m %
+
+[1;32m[*] Running Step 19 ...[0m
+
+Epoch 0  : train accuracy = 0.853, validation accuracy = 0.847
+Epoch 1  : train accuracy = 0.900, validation accuracy = 0.878
+Epoch 2  : train accuracy = 0.922, validation accuracy = 0.900
+Epoch 3  : train accuracy = 0.927, validation accuracy = 0.906
+Epoch 4  : train accuracy = 0.936, validation accuracy = 0.917
+Epoch 5  : train accuracy = 0.942, validation accuracy = 0.918
+Epoch 6  : train accuracy = 0.949, validation accuracy = 0.922
+Epoch 7  : train accuracy = 0.950, validation accuracy = 0.926
+Epoch 8  : train accuracy = 0.951, validation accuracy = 0.925
+Epoch 9  : train accuracy = 0.957, validation accuracy = 0.926
+
+
+Model config is layers=[256, 10], epochs=10
+test accuracy = 0.8878923766816144
+
+
+Epoch 0  : train accuracy = 0.899, validation accuracy = 0.877
+Epoch 1  : train accuracy = 0.936, validation accuracy = 0.916
+Epoch 2  : train accuracy = 0.955, validation accuracy = 0.931
+Epoch 3  : train accuracy = 0.962, validation accuracy = 0.931
+Epoch 4  : train accuracy = 0.979, validation accuracy = 0.937
+Epoch 5  : train accuracy = 0.984, validation accuracy = 0.941
+Epoch 6  : train accuracy = 0.985, validation accuracy = 0.939
+Epoch 7  : train accuracy = 0.990, validation accuracy = 0.944
+Epoch 8  : train accuracy = 0.992, validation accuracy = 0.942
+Epoch 9  : train accuracy = 0.995, validation accuracy = 0.944
+
+
+Model config is layers=[256, 100, 10], epochs=10
+test accuracy = 0.9063278525161933
+
+
+Epoch 0  : train accuracy = 0.903, validation accuracy = 0.883
+Epoch 1  : train accuracy = 0.917, validation accuracy = 0.897
+Epoch 2  : train accuracy = 0.958, validation accuracy = 0.925
+Epoch 3  : train accuracy = 0.966, validation accuracy = 0.929
+Epoch 4  : train accuracy = 0.984, validation accuracy = 0.940
+Epoch 5  : train accuracy = 0.990, validation accuracy = 0.942
+Epoch 6  : train accuracy = 0.986, validation accuracy = 0.942
+Epoch 7  : train accuracy = 0.996, validation accuracy = 0.949
+Epoch 8  : train accuracy = 0.997, validation accuracy = 0.948
+Epoch 9  : train accuracy = 0.998, validation accuracy = 0.948
+Epoch 10 : train accuracy = 0.999, validation accuracy = 0.948
+Epoch 11 : train accuracy = 0.999, validation accuracy = 0.952
+Epoch 12 : train accuracy = 0.999, validation accuracy = 0.950
+Epoch 13 : train accuracy = 1.000, validation accuracy = 0.953
+Epoch 14 : train accuracy = 1.000, validation accuracy = 0.951
+Epoch 15 : train accuracy = 0.999, validation accuracy = 0.951
+Epoch 16 : train accuracy = 1.000, validation accuracy = 0.951
+Epoch 17 : train accuracy = 1.000, validation accuracy = 0.951
+Epoch 18 : train accuracy = 1.000, validation accuracy = 0.953
+Epoch 19 : train accuracy = 1.000, validation accuracy = 0.951
+
+
+Model config is layers=[256, 100, 100, 10], epochs=20
+test accuracy = 0.9157947184853015
+
+
+Epoch 0  : train accuracy = 0.930, validation accuracy = 0.905
+Epoch 1  : train accuracy = 0.971, validation accuracy = 0.934
+Epoch 2  : train accuracy = 0.972, validation accuracy = 0.928
+Epoch 3  : train accuracy = 0.981, validation accuracy = 0.932
+Epoch 4  : train accuracy = 0.992, validation accuracy = 0.944
+Epoch 5  : train accuracy = 0.999, validation accuracy = 0.952
+Epoch 6  : train accuracy = 0.998, validation accuracy = 0.951
+Epoch 7  : train accuracy = 0.999, validation accuracy = 0.957
+Epoch 8  : train accuracy = 1.000, validation accuracy = 0.951
+Epoch 9  : train accuracy = 0.997, validation accuracy = 0.949
+Epoch 10 : train accuracy = 0.999, validation accuracy = 0.956
+Epoch 11 : train accuracy = 0.999, validation accuracy = 0.952
+Epoch 12 : train accuracy = 1.000, validation accuracy = 0.956
+Epoch 13 : train accuracy = 1.000, validation accuracy = 0.957
+Epoch 14 : train accuracy = 1.000, validation accuracy = 0.957
+Epoch 15 : train accuracy = 1.000, validation accuracy = 0.958
+Epoch 16 : train accuracy = 1.000, validation accuracy = 0.957
+Epoch 17 : train accuracy = 1.000, validation accuracy = 0.957
+Epoch 18 : train accuracy = 1.000, validation accuracy = 0.958
+Epoch 19 : train accuracy = 1.000, validation accuracy = 0.957
+
+
+Model config is layers=[256, 1000, 10], epochs=20
+test accuracy = 0.9207772795216741
+
+
