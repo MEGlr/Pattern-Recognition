@@ -1,6 +1,6 @@
 # Pattern-Recognition
 
-This repo contains the python notebooks for the lab exercises of the course "Pattern Recognition", which is part of the ECE-NTUA undergraduate program (9nth semester).
+This repo contains the code for the lab exercises of the course "Pattern Recognition", which is part of the ECE-NTUA undergraduate program (9nth semester).
 
 Course Description
 
